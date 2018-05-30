@@ -1,0 +1,13 @@
+{:dev        true
+ :port       3000
+ ;; when :nrepl-port is set the application starts the nREPL server on load
+ :nrepl-port 7000
+ :signal-cli {
+              :state-dir "/home/<your username>/.config/signal"
+              :username  "+YOURNUMBER"
+              :path      "/your/local/signal-cli"
+              }
+ :api-creds  {
+              :admin "change me"
+              }
+ }

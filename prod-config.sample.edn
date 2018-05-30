@@ -1,0 +1,14 @@
+;; WARNING
+;; This prod-config.sample.edn is an example of what the configuration should look like. See README.md for more info.
+;; This file is listed in .gitignore and will be excluded from version control by Git.
+
+{
+ :signal-cli {
+              :state-dir "/home/<your username>/.config/signal"
+              :username  "+YOURNUMBER"
+              :path      "/your/local/signal-cli"
+              }
+ :api-creds  {
+              :admin "change me"
+              }
+ }
